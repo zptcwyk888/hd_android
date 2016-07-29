@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ujp.ujipin.fragment.UserFragment"
+    android:background="#ededed">
+    <LinearLayout
+        style="@style/top_out_bar"
+        android:id="@+id/setting_out_topbar"
+        android:background="@color/red"
+        >
+        <RelativeLayout
+            android:id="@+id/setting_topbar"
+            style="@style/topbar"
+            android:background="@color/red"
+            >
+
+            <TextView
+                android:id="@+id/setting_top_centerTextView"
+                android:text="设置"
+                style="@style/top_bar_center_text"
+                android:textColor="@color/black_text_color"/>
+            <TextView
+                android:id="@+id/cancel_text"
+                android:text="取消"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/black_text_color"
+                android:drawableLeft="@drawable/h_menu_cancel"
+                android:paddingRight="30dp"
+                android:paddingLeft="20dp"
+                android:textSize="@dimen/title_TextSize"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#bebebe"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+
+        >
+        <View  android:layout_height="1dp" 
+           android:layout_width="match_parent"
+           android:background="#bebebe"/>
+     <View  android:layout_height="5dp" 
+           android:layout_width="match_parent"
+           android:background="@color/gray_bk"/>
+     <View  android:layout_height="1dp" 
+           android:layout_width="match_parent"
+           android:background="#bebebe"/>
+        <TextView 
+            android:id="@+id/edit_password"
+             android:layout_width="fill_parent"
+        	 android:layout_height="wrap_content"
+        	 android:text="密码修改"
+        	 android:drawableRight="@mipmap/setting_enter_press"
+        	 android:textSize="@dimen/text_TextSize"
+        	 android:textColor="@color/black_text_color"
+        	 android:padding="10dp"
+        	 android:background="#ffffff"
+            />        
+    </LinearLayout>
+
+     <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#bebebe"/>
+     <View  android:layout_height="5dp" 
+           android:layout_width="match_parent"
+           android:background="@color/gray_bk"/>
+     <View  android:layout_height="1dp" 
+           android:layout_width="match_parent"
+           android:background="#bebebe"/>
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:id="@+id/updata_version">
+        <TextView 
+             android:layout_weight="1"
+              android:layout_width="0dp"
+        	 android:layout_height="wrap_content"
+        	 android:background="#ffffff"
+        	 android:text="系统升级"
+        	 android:textSize="@dimen/text_TextSize"
+        	 android:textColor="@color/black_text_color"
+        	 android:padding="10dp"
+            />     
+          <TextView 
+             android:layout_width="wrap_content"
+        	 android:layout_height="wrap_content"
+        	 android:background="#ffffff"
+        	 android:text=""
+        	 android:textSize="@dimen/text_TextSize"
+        	 android:textColor="@color/gray_text_color"
+        	 android:padding="10dp"
+              android:id="@+id/versionname"
+            />     
+    </LinearLayout>
+     <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#bebebe"/>
+      <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+        android:id="@+id/out_login"
+          android:visibility="visible">
+        <TextView 
+            android:layout_marginTop="50dp"
+             android:layout_width="fill_parent"
+        	 android:layout_height="wrap_content"
+        	 android:background="#ffffff"
+        	 android:text="安全退出"
+        	 android:textSize="@dimen/text_TextSize"
+        	 android:textColor="@color/black_text_color"
+        	 android:padding="10dp"
+        	 android:gravity="center"
+            />        
+    </LinearLayout>
+     <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#bebebe"/>
+
+</LinearLayout>

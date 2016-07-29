@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">华东</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="new_user_register"><u>新用户注册</u></string>
+    <string name="forget_password"><u>忘记密码</u></string>
+    <string name="rf_text_fast_channel"><u>方法一：记不住朋友手机号？试试快速通道</u></string>
+    <string name="rf_text_recommend_friend"><u>方法二：推荐好友，领取现金券</u></string>
+    <string name="rf_btn_fast_channel"><u>快速通道</u></string>
+    <string name="rf_btn_recommend"><u>确认推荐</u></string>
+    <string name="rf_text_phone_num"><u>请输入手机号</u></string>
+    <string name="rf_text_info"><u>提交号码后，系统会自动向你的朋友发送拖柜宝APP下载短信，他可以直接点击链接或到APP STORE下载，同时你可以获得50元现金券（可以兑换礼品）。</u></string>
+    <string name="geofence_des">点击地图，以点击点为中心建立地理围栏，再次点击地图修改地理围栏位置</string>
+    <string name="get_customer"><u>邀请客服介入</u></string>
+    <string name="order_num"><u>12</u></string>
+    <string name="message_num"><u>8</u></string>
+    <string name="add_fee"><u>添加附加费</u></string>
+    <string name="app_id">输入您讯飞的appid</string>
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <!--listbuddy-->
+    <string name="position">Position</string>
+    <string name="list">List</string>
+    <string name="customize">Customize</string>
+    <string name="open_activities">Open activities</string>
+    <string name="fillgap">Fill gap</string>
+    <string name="manual_fast_scroll">Faster manual scroll</string>
+    <string name="auto_fast_scroll">Faster auto scroll</string>
+    <string name="dividers">Dividers</string>
+    <string name="black">Black</string>
+    <string name="transparency">Transparency</string>
+    <string name="empty">Empty</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="reset">恢复设置</string>
+    <string name="about">关于我们</string>
+    <string name="about_cody">烟台华东科技</string>
+    <string name="detail">详情</string>
+</resources>

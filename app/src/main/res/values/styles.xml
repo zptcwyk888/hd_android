@@ -1,0 +1,144 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!--     <style name="topbar">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">60dp</item>
+            <item name="android:background">#ee4136</item>
+        </style> -->
+    <style name="dot_style">
+        <item name="android:layout_width">10dip</item>
+        <item name="android:layout_height">10dip</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+
+    <style name="topbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/topbar_height</item>
+        <item name="android:background">@drawable/topbar_bg</item>
+    </style>
+
+    <style name="phone_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:background">@drawable/topbar_bg</item>
+    </style>
+
+    <style name="top_out_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/topbar_bg</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="item_line">
+        <item name="android:background">@color/item_line</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <style name="back_style">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:layout_marginBottom">1.2dp</item>
+    </style>
+
+    <style name="back_style2">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_marginBottom">1.2dp</item>
+    </style>
+
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/mratingbar</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+    <style name="eval_RatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/myratingbar</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+
+    <style name="select_city_popup">
+        <item name="android:windowEnterAnimation">@anim/up_in</item>
+        <item name="android:windowExitAnimation">@anim/up_out</item>
+    </style>
+
+    <style name="select_pleace_popup">
+        <item name="android:windowEnterAnimation">@anim/bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_out</item>
+    </style>
+
+    <style name="back_img_style">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:src">@drawable/btn_back</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="top_bar_center_text">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <!--listbuddy-->
+    <style name="SpinnerAppTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/apptheme_spinner_background_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/apptheme_list_selector_holo_dark</item>
+    </style>
+
+    <style name="SpinnerDropDownItemAppTheme" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/apptheme_btn_radio_holo_dark</item>
+    </style>
+
+    <!--<style name="TranslucentActionBar" parent="@style/Widget.AppCompat.Base.ActionBar">-->
+        <!--<item name="android:background">@null</item>-->
+        <!--<item name="android:icon">@drawable/ic_launcher</item>-->
+        <!--<item name="titleTextStyle">@style/titleStyle</item>-->
+    <!--</style>-->
+
+    <!--<style name="titleStyle" parent="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title">-->
+        <!--<item name="android:textColor">@android:color/white</item>-->
+    <!--</style>-->
+</resources>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bk"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/getmoney_out_topbar"
+        style="@style/top_out_bar">
+        <RelativeLayout
+            android:id="@+id/getmoney_phonebar"
+            style="@style/phone_bar"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/getmoney_topbar"
+            style="@style/topbar">
+
+            <ImageView
+                android:id="@+id/getmoney_back_img"
+                style="@style/back_img_style" />
+
+            <TextView
+                android:id="@+id/getmoney_center_text"
+                style="@style/top_bar_center_text"
+                android:text="页面2" />
+
+            <TextView
+                android:id="@+id/example_layout2_back"
+                style="@style/back_style"
+                android:layout_alignBottom="@id/getmoney_center_text"
+                android:layout_toRightOf="@id/getmoney_back_img"
+                android:text="首页" />
+        </RelativeLayout>
+    </LinearLayout>
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/user_img"
+    android:layout_margin="20dp"
+    android:id="@+id/get_pic_test"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgStr_text"
+        android:text=""
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

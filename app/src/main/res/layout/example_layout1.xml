@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/getwork_out_topbar"
+        style="@style/top_out_bar">
+        >
+
+        <RelativeLayout
+            android:id="@+id/getwork_phonebar"
+            style="@style/phone_bar"></RelativeLayout>
+
+        <RelativeLayout
+
+            style="@style/topbar">
+
+            <ImageView
+                style="@style/back_img_style"
+                android:id="@+id/getwork_back_img"
+                />
+
+            <TextView
+                android:id="@+id/getwork_topCenterText"
+                style="@style/top_bar_center_text"
+                android:text="页面1"
+                />
+            <TextView
+                android:id="@+id/getwork_back"
+                style="@style/back_style"
+                android:text="首页"
+                android:layout_toRightOf="@id/getwork_back_img"
+                android:layout_alignBottom="@id/getwork_topCenterText"/>
+
+
+
+            <TextView
+                android:id="@+id/topRightText"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:text="瀑布图片"
+                android:layout_marginBottom="12dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"
+                android:layout_alignBottom="@id/getwork_topCenterText"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/mpullToRefreshListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/getwork_out_topbar"
+        android:background="#F3F3F3"
+        >
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+    <TextView
+        android:id="@+id/init_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#F3F3F3"
+        android:gravity="center"
+        android:text="暂无数据！"
+        android:textColor="@color/gray_text_color"
+        android:textSize="@dimen/title_TextSize"
+        android:visibility="gone" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:id="@+id/init_progree"/>
+</RelativeLayout>
+
+
+
+
+
+
